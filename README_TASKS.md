@@ -23,11 +23,11 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 **Objetivo**: Establecer la infraestructura básica del proyecto
 
 ### 1.1 Configuración del Entorno
-- [ ] **1.1.1** Verificar instalación de Flutter SDK >= 3.7.2
-- [ ] **1.1.2** Configurar IDE (VS Code/Android Studio) con extensiones Flutter
-- [ ] **1.1.3** Configurar emuladores Android e iOS
-- [ ] **1.1.4** Instalar Firebase CLI: `npm install -g firebase-tools`
-- [ ] **1.1.5** Instalar FlutterFire CLI: `dart pub global activate flutterfire_cli`
+- [x] **1.1.1** Verificar instalación de Flutter SDK >= 3.7.2
+- [x] **1.1.2** Configurar IDE (VS Code/Android Studio) con extensiones Flutter
+- [x] **1.1.3** Configurar emuladores Android e iOS
+- [x] **1.1.4** Instalar Firebase CLI: `npm install -g firebase-tools`
+- [x] **1.1.5** Instalar FlutterFire CLI: `dart pub global activate flutterfire_cli`
 
 ### 1.2 Configuración del Proyecto Base
 - [ ] **1.2.1** Actualizar `pubspec.yaml` con dependencias básicas:
