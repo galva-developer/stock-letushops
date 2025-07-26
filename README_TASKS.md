@@ -30,7 +30,7 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 - [x] **1.1.5** Instalar FlutterFire CLI: `dart pub global activate flutterfire_cli`
 
 ### 1.2 Configuración del Proyecto Base
-- [ ] **1.2.1** Actualizar `pubspec.yaml` con dependencias básicas:
+- [x] **1.2.1** Actualizar `pubspec.yaml` con dependencias básicas:
   ```yaml
   dependencies:
     flutter:
@@ -49,17 +49,17 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
     intl: ^0.19.0
   ```
 
-- [ ] **1.2.2** Ejecutar `flutter pub get`
-- [ ] **1.2.3** Configurar Firebase para el proyecto:
+- [x] **1.2.2** Ejecutar `flutter pub get`
+- [x] **1.2.3** Configurar Firebase para el proyecto:
   ```bash
   firebase login
   flutterfire configure
   ```
 
 ### 1.3 Configuración de Firebase
-- [ ] **1.3.1** Crear proyecto en Firebase Console
-- [ ] **1.3.2** Habilitar Authentication (Email/Password)
-- [ ] **1.3.3** Crear base de datos Firestore
+- [x] **1.3.1** Crear proyecto en Firebase Console
+- [x] **1.3.2** Habilitar Authentication (Email/Password)
+- [x] **1.3.3** Crear base de datos Firestore
 - [ ] **1.3.4** Configurar Firebase Storage
 - [ ] **1.3.5** Configurar reglas de seguridad básicas:
   
