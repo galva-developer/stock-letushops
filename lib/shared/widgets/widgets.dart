@@ -1,10 +1,7 @@
 // 🧩 Shared Widgets
 // Widgets compartidos y reutilizables para Stock LetuShops
 
-library widgets;
-
 export 'responsive_widget.dart';
-export 'responsive_layout_example.dart';
 export 'color_palette_preview.dart';
 
 // export 'common_button.dart';
