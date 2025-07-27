@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'store-letushops.firebasestorage.app',
     measurementId: 'G-QEE6QY7KPM',
   );
+
 }
