@@ -88,7 +88,7 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
   ```
 
 ### 1.4 Configuración del Main.dart
-- [ ] **1.4.1** Crear estructura básica del main.dart:
+- [x] **1.4.1** Crear estructura básica del main.dart:
   ```dart
   import 'package:flutter/material.dart';
   import 'package:firebase_core/firebase_core.dart';
@@ -112,9 +112,9 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 **Objetivo**: Implementar sistema completo de autenticación
 
 ### 2.1 Modelos de Autenticación
-- [ ] **2.1.1** Crear `lib/features/authentication/domain/entities/auth_user.dart`
-- [ ] **2.1.2** Crear `lib/features/authentication/data/models/user_model.dart`
-- [ ] **2.1.3** Definir excepciones de autenticación en `lib/features/authentication/domain/exceptions/auth_exceptions.dart`
+- [x] **2.1.1** Crear `lib/features/authentication/domain/entities/auth_user.dart`
+- [x] **2.1.2** Crear `lib/features/authentication/data/models/user_model.dart`
+- [x] **2.1.3** Definir excepciones de autenticación en `lib/features/authentication/domain/exceptions/auth_exceptions.dart`
 
 ### 2.2 Repositorios y Fuentes de Datos
 - [ ] **2.2.1** Crear interfaz del repositorio: `lib/features/authentication/domain/repositories/auth_repository.dart`
