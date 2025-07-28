@@ -181,12 +181,16 @@ class AuthExceptionMapper {
   }
 
   /// Convierte una excepción genérica a AuthException
-  static AuthException fromException(Exception exception) {
-    if (exception is AuthException) {
-      return exception;
+  static AuthException fromException(Object error) {
+    if (error is AuthException) {
+      return error;
     }
 
-    return UnknownAuthException(message: exception.toString());
+    if (error is Exception) {
+      return UnknownAuthException(message: error.toString());
+    }
+
+    return UnknownAuthException(message: 'Unknown error: $error');
   }
 }
 
