@@ -119,7 +119,7 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 ### 2.2 Repositorios y Fuentes de Datos
 - [x] **2.2.1** Crear interfaz del repositorio: `lib/features/authentication/domain/repositories/auth_repository.dart`
 - [x] **2.2.2** Implementar fuente de datos Firebase: `lib/features/authentication/data/datasources/firebase_auth_datasource.dart`
-- [ ] **2.2.3** Implementar repositorio: `lib/features/authentication/data/repositories/auth_repository_impl.dart`
+- [x] **2.2.3** Implementar repositorio: `lib/features/authentication/data/repositories/auth_repository_impl.dart`
 
 ### 2.3 Casos de Uso
 - [ ] **2.3.1** Crear `lib/features/authentication/domain/usecases/login_usecase.dart`
