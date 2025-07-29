@@ -122,11 +122,11 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 - [x] **2.2.3** Implementar repositorio: `lib/features/authentication/data/repositories/auth_repository_impl.dart`
 
 ### 2.3 Casos de Uso
-- [ ] **2.3.1** Crear `lib/features/authentication/domain/usecases/login_usecase.dart`
-- [ ] **2.3.2** Crear `lib/features/authentication/domain/usecases/register_usecase.dart`
-- [ ] **2.3.3** Crear `lib/features/authentication/domain/usecases/logout_usecase.dart`
-- [ ] **2.3.4** Crear `lib/features/authentication/domain/usecases/reset_password_usecase.dart`
-- [ ] **2.3.5** Crear `lib/features/authentication/domain/usecases/get_current_user_usecase.dart`
+- [x] **2.3.1** Crear `lib/features/authentication/domain/usecases/login_usecase.dart`
+- [x] **2.3.2** Crear `lib/features/authentication/domain/usecases/register_usecase.dart`
+- [x] **2.3.3** Crear `lib/features/authentication/domain/usecases/logout_usecase.dart`
+- [x] **2.3.4** Crear `lib/features/authentication/domain/usecases/reset_password_usecase.dart`
+- [x] **2.3.5** Crear `lib/features/authentication/domain/usecases/get_current_user_usecase.dart`
 
 ### 2.4 Gestión de Estado
 - [ ] **2.4.1** Crear `lib/features/authentication/presentation/providers/auth_provider.dart`
