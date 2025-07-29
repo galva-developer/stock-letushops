@@ -129,9 +129,9 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 - [x] **2.3.5** Crear `lib/features/authentication/domain/usecases/get_current_user_usecase.dart`
 
 ### 2.4 Gestión de Estado
-- [ ] **2.4.1** Crear `lib/features/authentication/presentation/providers/auth_provider.dart`
-- [ ] **2.4.2** Implementar estados de autenticación (loading, success, error)
-- [ ] **2.4.3** Crear `lib/features/authentication/presentation/providers/auth_state.dart`
+- [x] **2.4.1** Crear `lib/features/authentication/presentation/providers/auth_provider.dart`
+- [x] **2.4.2** Implementar estados de autenticación (loading, success, error)
+- [x] **2.4.3** Crear `lib/features/authentication/presentation/providers/auth_state.dart`
 
 ### 2.5 Pantallas de Autenticación
 - [ ] **2.5.1** Crear `lib/features/authentication/presentation/pages/login_page.dart`
