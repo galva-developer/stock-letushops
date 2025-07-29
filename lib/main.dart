@@ -1,19 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:provider/provider.dart';
+
+// Importaciones de configuración
 import 'config/themes/app_theme.dart';
 import 'config/routes/app_routes.dart';
 import 'firebase_options.dart';
 
+// Importaciones de servicios
+import 'core/services/session_persistence_service.dart';
+
+// Importaciones de providers
+import 'features/authentication/presentation/providers/auth_provider.dart';
+
+// Importaciones de dependencias de auth
+import 'features/authentication/data/repositories/auth_repository_impl.dart';
+import 'features/authentication/data/datasources/firebase_auth_datasource.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Solo inicializar Firebase en móviles por ahora
-  if (!kIsWeb) {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-  }
+  // Inicializar Firebase
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
+  // Inicializar servicio de persistencia de sesión
+  await SessionPersistenceService.instance.initialize();
 
   runApp(const StockLetuShopsApp());
 }
@@ -23,13 +34,35 @@ class StockLetuShopsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Stock LetuShops',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.lightTheme,
-      // darkTheme: AppTheme.darkTheme, // Para futuras implementaciones
-      initialRoute: AppRoutes.splash,
-      onGenerateRoute: AppRoutes.generateRoute,
+    return MultiProvider(
+      providers: [
+        // Configuración del AuthProvider usando el factory
+        ChangeNotifierProvider<AuthProvider>(
+          create: (context) {
+            // Crear dependencias
+            final datasource = FirebaseAuthDataSource();
+            final repository = AuthRepositoryImpl(datasource);
+
+            // Crear provider usando factory
+            return AuthProviderFactory.create(authRepository: repository);
+          },
+        ),
+      ],
+      child: Consumer<AuthProvider>(
+        builder: (context, authProvider, child) {
+          return MaterialApp.router(
+            title: 'Stock LetuShops',
+            debugShowCheckedModeBanner: false,
+
+            // Configuración de tema
+            theme: AppTheme.darkTheme,
+            // darkTheme: AppTheme.darkTheme, // Para futuras implementaciones
+
+            // Configuración de rutas con GoRouter
+            routerConfig: AppRoutes.router,
+          );
+        },
+      ),
     );
   }
 }

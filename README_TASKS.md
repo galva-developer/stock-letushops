@@ -146,9 +146,9 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 - [x] **2.6.4** Crear validadores de formularios
 
 ### 2.7 Configuración de Rutas Protegidas
-- [ ] **2.7.1** Crear `lib/config/routes/route_guard.dart`
-- [ ] **2.7.2** Implementar redirección automática según estado de autenticación
-- [ ] **2.7.3** Configurar persistencia de sesión
+- [x] **2.7.1** Crear `lib/config/routes/route_guard.dart`
+- [x] **2.7.2** Implementar redirección automática según estado de autenticación
+- [x] **2.7.3** Configurar persistencia de sesión
 
 ---
 
