@@ -134,10 +134,10 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 - [x] **2.4.3** Crear `lib/features/authentication/presentation/providers/auth_state.dart`
 
 ### 2.5 Pantallas de Autenticación
-- [ ] **2.5.1** Crear `lib/features/authentication/presentation/pages/login_page.dart`
-- [ ] **2.5.2** Crear `lib/features/authentication/presentation/pages/register_page.dart`
-- [ ] **2.5.3** Crear `lib/features/authentication/presentation/pages/forgot_password_page.dart`
-- [ ] **2.5.4** Crear `lib/features/authentication/presentation/pages/splash_page.dart`
+- [x] **2.5.1** Crear `lib/features/authentication/presentation/pages/login_page.dart`
+- [x] **2.5.2** Crear `lib/features/authentication/presentation/pages/register_page.dart`
+- [x] **2.5.3** Crear `lib/features/authentication/presentation/pages/forgot_password_page.dart`
+- [x] **2.5.4** Crear `lib/features/authentication/presentation/pages/splash_page.dart`
 
 ### 2.6 Widgets de Autenticación
 - [ ] **2.6.1** Crear `lib/features/authentication/presentation/widgets/custom_text_field.dart`
