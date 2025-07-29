@@ -140,10 +140,10 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 - [x] **2.5.4** Crear `lib/features/authentication/presentation/pages/splash_page.dart`
 
 ### 2.6 Widgets de Autenticación
-- [ ] **2.6.1** Crear `lib/features/authentication/presentation/widgets/custom_text_field.dart`
-- [ ] **2.6.2** Crear `lib/features/authentication/presentation/widgets/auth_button.dart`
-- [ ] **2.6.3** Crear `lib/features/authentication/presentation/widgets/logo_widget.dart`
-- [ ] **2.6.4** Crear validadores de formularios
+- [x] **2.6.1** Crear `lib/features/authentication/presentation/widgets/custom_text_field.dart`
+- [x] **2.6.2** Crear `lib/features/authentication/presentation/widgets/auth_button.dart`
+- [x] **2.6.3** Crear `lib/features/authentication/presentation/widgets/logo_widget.dart`
+- [x] **2.6.4** Crear validadores de formularios
 
 ### 2.7 Configuración de Rutas Protegidas
 - [ ] **2.7.1** Crear `lib/config/routes/route_guard.dart`
