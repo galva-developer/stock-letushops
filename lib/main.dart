@@ -57,6 +57,7 @@ class StockLetuShopsApp extends StatelessWidget {
             // Configuración de tema
             theme: AppTheme.lightTheme,
             // darkTheme: AppTheme.darkTheme, // Para futuras implementaciones
+            // themeMode: ThemeMode.system, // Respeta la configuración del sistema
 
             // Configuración de rutas con GoRouter
             routerConfig: AppRoutes.router,

@@ -156,10 +156,11 @@ Este documento detalla la implementación técnica completa del proyecto Stock L
 **Objetivo**: Desarrollar la estructura central de la app
 
 ### 3.1 Configuración de Temas
-- [ ] **3.1.1** Crear `lib/config/themes/app_theme.dart` con paleta rojo-blanco-negro
-- [ ] **3.1.2** Implementar tema claro y oscuro
-- [ ] **3.1.3** Configurar tipografías responsive
-- [ ] **3.1.4** Definir estilos de componentes (botones, cards, inputs)
+- [x] **3.1.1** Crear `lib/config/themes/app_theme.dart` con paleta rojo-blanco-negro
+- [x] **3.1.1** Crear `lib/config/themes/app_theme.dart` con paleta rojo-blanco-negro
+- [x] **3.1.2** Implementar tema claro y oscuro
+- [x] **3.1.3** Configurar tipografías responsive
+- [x] **3.1.4** Definir estilos de componentes (botones, cards, inputs)
 
 ### 3.2 Sistema de Rutas
 - [ ] **3.2.1** Crear `lib/config/routes/app_routes.dart` con GoRouter
